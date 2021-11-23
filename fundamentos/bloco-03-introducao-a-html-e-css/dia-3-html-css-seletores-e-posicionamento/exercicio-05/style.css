@@ -1,0 +1,29 @@
+ol {
+    background-color: yellow;
+}
+
+ol li:nth-child(even) {
+    background-color: green;
+    color: tomato;
+}
+
+h1, h2, h3 {
+    color: red;
+}
+
+h1 em {
+    font-size: 40px;
+    border: 1px solid red;
+}
+
+li {
+    font-size: 20px;
+}
+
+li em {
+    font-weight: 600;
+}
+
+ul.linguagens li:not(:nth-of-type(n+4)) {
+    background-color: royalblue;
+}
