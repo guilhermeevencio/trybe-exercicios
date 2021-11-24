@@ -50,12 +50,12 @@ h2 {
     display: inline-block;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: 4%;
+    margin-left: 3%;
     
 
 }
 #foto1 {
-    transform: translateY(-10%);
+    transform: translateY(-18%);
 }
 
 a {
@@ -74,8 +74,23 @@ a {
     border-radius: 10px;
 
 }
-.eyefacts p {
+.eyefacts p {    
+    text-align: justify;  
+}
+
+.power {
+    margin-top: 5%;
+    font-size: 14pt;
+    line-height: 1.8em;
+    width: 60%;
+    display: inline-block;
     
-    text-align: justify;
     
+    padding: 1%;
+    background-color: #B4CFDA;
+    color: black;
+    border-radius: 10px;
+}
+#foto2 {
+    margin-right: 3%;
 }
