@@ -1,0 +1,27 @@
+div:hover {
+    border: 2px solid red ;
+
+
+}
+
+div:first-of-type {
+    background-color: royalblue;
+}
+
+
+div:nth-of-type(2) {
+    background-color: skyblue;
+}
+
+div:nth-of-type(3) {
+    background-color: teal;
+}
+
+div:nth-of-type(4) {
+    background-color: black;
+    color: blanchedalmond;
+}
+
+div:last-of-type {
+    background-color: burlywood;
+}

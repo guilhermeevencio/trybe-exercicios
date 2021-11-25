@@ -1,0 +1,116 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    font-size: 14pt;
+    line-height: 1.5em;
+    color: #001845
+}
+main {
+    background-color: #E1ECF7;
+}
+#cabecalho {
+    position: fixed;
+    display: block;
+    width: 100%;
+    background-color: #71A5DE;   
+}
+#cabecalho ul li {
+    display: inline-block;
+    margin: 0 2%;
+    text-align: right;
+}
+h1 {
+text-align: center;
+}
+#minha_foto {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 350px;
+    width: 350px;  
+    margin-top: 12%; 
+    border: 5px solid #145ba8;   
+}
+#img {
+    display: block;
+    text-align: center;
+    padding-bottom:5%;
+    background-color: #E1ECF7;  
+}
+a {
+    text-decoration: none;
+    color: royalblue;
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 20pt;
+    margin-bottom: 2%;
+}
+#lists {
+    text-align: center;
+    background-color: #AECBEB;
+    padding: 1%;    
+} 
+li:hover {
+    background-color:#E2E9F4 ;
+}
+#licoes_aprendidas {
+    width: 40%;
+    height: 60%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #83B0E1;
+    list-style: none;    
+}
+#licoes_a_aprender {
+    width: 40%;
+    display: inline-block;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: #83B0E1;
+    list-style: none;
+}
+#artigo_e_aside {
+    text-align: center;
+    background-color:#E1ECF7 ;
+    padding: 2% 0 2% 0;
+}
+#table  {
+    background-color: #AECBEB;
+    text-align: center;
+    padding: 1%;
+    margin: auto;   
+}
+table {
+    text-align: center;
+    margin: auto;
+    background-color: #71A5DE;
+}
+tr {
+    background-color:#E1ECF7;
+}
+td {
+    padding: 10px;
+}
+.lado-esquerdo {
+    width: 40%;
+    display: inline-block;
+    margin: 1%;
+    background-color: #AECBEB;
+    border-radius: 10px;   
+}
+.lado-direito {
+    width: 40%;
+    display: inline-block;
+    margin: 1%;
+    transform: translateY(-45%);
+    text-align: center;
+    background-color: #AECBEB;
+    border-radius: 10px;
+}
+#rodape {
+    padding: 1%;
+}
