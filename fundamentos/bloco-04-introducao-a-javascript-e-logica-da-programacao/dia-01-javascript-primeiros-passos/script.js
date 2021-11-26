@@ -52,4 +52,17 @@ if (a > b && a > c) {
      console.log(`zero`);
  }*/
 
+ //exercicio 5
+
+ /*const a = 28
+ const b = 90
+ const c = 60
+ 
+ if ((a + b + c) === 180 ) {
+     console.log(`true`);
+
+ } else {
+    console.log(`false`); 
+ }*/
+
  
