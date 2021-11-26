@@ -40,4 +40,16 @@ if (a > b && a > c) {
     console.log(`eles sao iguais`)
 }*/
 
+//exercicio 4
 
+/*const n = 0
+ if (n > 0) {
+     console.log(`positivo`)
+ } else if (n < 0) {
+    console.log(`negativo`);
+
+ } else {
+     console.log(`zero`);
+ }*/
+
+ 
