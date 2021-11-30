@@ -53,3 +53,31 @@ if (impares === 0) {
 } else {
     console.log(impares);
 }*/
+
+//ex007
+
+/*let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let lowestValue = numbers[0];
+for (index = 1; index < numbers.length; index +=1) {
+    if (lowestValue < numbers[index]) {
+        lowestValue = numbers[index]
+    }
+} console.log(lowestValue)*/
+
+//ex008 e ex009
+
+let n = []
+
+for (index = 1; index <= 25; index += 1) {
+    n.push(index)
+}
+
+
+for (let index = 0; index < n.length; index += 1) {
+    console.log( n[index] / 2)
+    
+
+
+    
+} 
+
