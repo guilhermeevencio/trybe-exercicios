@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Exercício 5.2</title>
+    <style>
+      section {
+        border-color: black;
+        border-style: solid;
+      }
+
+      .title {
+        text-align: center;
+      }
+
+      .main-content {
+        background-color: yellow;
+      }
+
+      .main-content .center-content {
+        background-color: red;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .main-content .center-content p {
+        font-style: italic;
+      }
+
+      .main-content .left-content {
+        background-color: green;
+        width: 60%;
+        margin-left: 0;
+        margin-right: auto;
+      }
+
+      .main-content .left-content .small-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 100%;
+      }
+
+      .main-content .right-content {
+        background-color: blue;
+        width: 60%;
+        margin-left: auto;
+        margin-right: 0;
+      }
+
+      .main-content .description {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+     function creationTool (elementoPai, elementoFilho, classes) {
+         let filho = document.createElement(elementoFilho);
+         let pai = document.querySelector(elementoPai);
+         filho.className = classes;
+         pai.appendChild(filho);
+     }
+     creationTool('body', 'h1');
+     creationTool('body', 'main', 'main-content');
+     creationTool('main', 'section', 'center-content');
+     creationTool('section', 'p');
+     creationTool('main', 'section', 'left-content');
+     creationTool('main', 'section', 'right-content');
+
+     function addText(tag, text) {
+         let texto = document.querySelector(tag);
+         texto.innerText = text;
+     }
+     addText('h1','Exercício 5.2 - JavaScript DOM');
+     addText('p', 'Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.');
+    
+     function imagem() {
+        let classe = document.querySelector('.left-content');
+        let elemento = document.createElement('img');
+        elemento.setAttribute('src', 'https://picsum.photos/200')
+        elemento.className = 'small-image';
+        classe.appendChild(elemento);
+     }
+     imagem()
+
+     function lista(itens) {
+         //let pai = document.querySelector('.right-content');
+         //let listaOrdenada = document.createElement('ul');
+         //let listItens = document.createElement('li')
+         //listaOrdenada.appendChild(listItens);
+         //listItens.innerText = itens[0];
+         let lista = 'lista'
+         let itensDaLista = itens 
+         for (let i = 0; i < itens.length; itens += 1) {
+            itensDaLista.push(itens[i])
+         }
+console.log(itensDaLista);
+
+     }
+     lista('um', 'dois', 'tres', 'quatro', 'cinco')
+
+    
+     //let texto = document.querySelector('h1');
+    //texto.innerText = 'exercicios';
+// CRIAR FUNCAO RESPONSAVEL POR INSERIR TEXTOS NO CORPO DA PAGINA
+
+
+    
+     
+
+    </script>
+  </body>
+</html>
