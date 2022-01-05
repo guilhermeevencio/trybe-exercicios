@@ -8,7 +8,58 @@
 </head>
 <body>
     <fieldset>
-        
+        <label for="input-name">Nome
+        <input type="text" maxlength="40" required id="input-name" name="name">
+        </label>
+        <br>
+        <label for="input-email">Email:
+        <input type="email" name="email" id="input-email" maxlength="50" required>
+        </label>
+        <br>
+        <label for="input-cpf">CPF: 
+        <input type="text" name="cpf" id="input-cpf" maxlength="11" required>
+        </label>
+        <br>
+        </label>
+        <label for="adress">Endereço: 
+            <input type="text" required id="adress" maxlength="200" name="adress">
+        </label>
+        <br>
+        <label for="city">Cidade: 
+            <input type="text" required id="city" maxlength="28" name="city">
+        </label>
+        <br>
+        <label for="state">Estado: 
+            <select name="state" id="state" required></select>
+        </label>
+        <br>
+        <label for="home">
+            <input type="radio" id="home" name="home" required> Casa
+        </label>
+        <label for="apt">
+            <input type="radio" id="apt" name="home"> Apartamento
+        </label>   
     </fieldset>
+
+    <fieldset>
+        <label for="resumee">Curriculo: <br>
+            <textarea name="resumee" id="resumee" cols="30" rows="5" maxlength="1000" required></textarea>
+        </label>
+        <br>
+        <label for="job">Cargo: 
+            <input type="text" name="job" id="job" required maxlength="40">
+        </label>
+        <br>
+        <label for="description"> Descrição do cargo: 
+            <input type="text" name="descrpition" id="description" maxlength="500" required>
+        </label>
+        <br>
+        <label for="start">Data de Início: 
+            <input type="date" name="start-date" id="start" required>
+        </label>
+    </fieldset>
+    <button type="submit">Enviar</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
