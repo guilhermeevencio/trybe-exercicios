@@ -1,0 +1,38 @@
+body {
+  background-image: url('https://wallpapersmug.com/download/1920x1080/acd20d/reactjs-atom-minimal.jpg');
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.card {
+  background-color: rgba(96, 56, 142, 0.817);
+  color: white;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cards {
+  padding: 5px;
+}
+
+h1 {
+  background-color: rgba(113, 45, 142, 0.742);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+h1:last-child {
+   background-color: rgba(255, 0, 0, 0.653);
+   padding: 20px;
+   border-radius: 5px;
+   text-align: center;
+ }
