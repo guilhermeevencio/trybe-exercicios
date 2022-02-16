@@ -23,7 +23,7 @@ const conteudos = [
     },
   ];
 
-  const InfoToRender = conteudos.map(({conteudo, bloco, status}) => 
+  const InfoToRender = conteudos.map(({ conteudo, bloco, status }) => 
   <section className="card">
   <p>{`O conteúdo é: ${conteudo}`}</p>
   <p>{`Status: ${status}`}</p>
