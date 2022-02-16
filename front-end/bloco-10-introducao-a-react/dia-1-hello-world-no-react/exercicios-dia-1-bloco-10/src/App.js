@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header/Header';
 
 const Task = (value) => {
 
@@ -12,6 +13,7 @@ const ThingsToDo = tasks.map((e) => Task(e));
 function App() {
   return (
     <>
+      <Header />
       { ThingsToDo }
     </>
   );
