@@ -3,9 +3,9 @@ import React from "react";
 export default class PokeDiv extends React.Component {
     render() {
         const arr = this.props.pokeData;
-        const MappingPokemons = arr.map(({name, type, averageWeight, image}) => {
+        const MappingPokemons = arr.map(({id, name, type, averageWeight, image}) => {
             return (
-                <section className="pokemons">
+                <section className="pokemons" key={id}>
                 <div>
                 <p>{name}</p>
                 <p>{type}</p>
