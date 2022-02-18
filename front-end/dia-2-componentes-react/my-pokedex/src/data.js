@@ -98,6 +98,6 @@ const pokemons = [
         image: "https://cdn2.bulbagarden.net/upload/2/2c/Spr_5b_148.png",
         moreInfo: "https://bulbapedia.bulbagarden.net/wiki/Dragonair_(Pok%C3%A9mon)"
     }
-  ];
-  
-  export default pokemons;
+];
+
+export default pokemons;
